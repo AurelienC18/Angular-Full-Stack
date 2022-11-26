@@ -1,0 +1,9 @@
+version: 1.0
+runtime: nodejs12
+build:
+  commands:    
+    build:
+      - npm install --production      
+      - npm build                            
+run:                              
+  command: node dist/server/app.js
