@@ -1,0 +1,9 @@
+<div class="btn-group" dropdown container="body" placement="bottom right">
+    <button id="button-basic" dropdownToggle type="button" class="btn btn-primary dropdown-toggle"
+        aria-controls="dropdown-basic">
+        <i class="fa fa-user-circle"></i> <span class="caret"></span>
+    </button>
+    <ul id="dropdown-basic" *dropdownMenu class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="button-basic">
+       <ng-content></ng-content>
+    </ul>
+</div>

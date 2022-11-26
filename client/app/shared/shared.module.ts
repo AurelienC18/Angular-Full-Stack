@@ -5,6 +5,8 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { ToastComponent } from './toast/toast.component';
 import { LoadingComponent } from './loading/loading.component';
+import { RouterModule } from '@angular/router';
+import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 
 @NgModule({
   imports: [
@@ -19,6 +21,8 @@ import { LoadingComponent } from './loading/loading.component';
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
+    BsDropdownModule,
+
     // Shared Components
     ToastComponent,
     LoadingComponent
